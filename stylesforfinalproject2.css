@@ -1,0 +1,56 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+h2 {
+    color: #333;
+}
+
+/* List styles */
+ol {
+    margin-left: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles for #ghg and #ghg-info */
+#ghg {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#ghg:visited {
+    color: purple;
+}
+
+#ghg-info {
+    display: none;
+}
